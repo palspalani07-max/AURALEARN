@@ -1,0 +1,17 @@
+.teacher-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  background: var(--gradient-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6) var(--space-8);
+}
+
+@media (max-width: 768px) {
+  .teacher-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "AURALEARN — AI Adaptive Study Companion",
+  "short_name": "AURALEARN",
+  "description": "Full three-role AI study companion with RAG, adaptive daily plans, and live teacher calls.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fafbff",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

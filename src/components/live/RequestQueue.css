@@ -1,0 +1,18 @@
+.live-requests-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.live-request-card {
+  padding: var(--space-5);
+  background: var(--neutral-50);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  transition: all var(--duration-fast);
+}
+
+.live-request-card:hover {
+  border-color: var(--primary-300);
+  background: var(--primary-50);
+}
